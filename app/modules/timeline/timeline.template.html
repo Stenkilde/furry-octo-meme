@@ -4,7 +4,7 @@
 
 <section id="cd-timeline" class="cd-container">
 	<div class="cd-timeline-block" ng-repeat="timeline in names">
-		<div class="cd-timeline-content">
+		<div class="cd-timeline-content" ui-sref="description({id: timeline.id})">
 			<img class="cd-timeline-img" ng-src="{{timeline.asset_url}}" alt="{{timeline.event_name}}"/>
 			<div class="title__holder">
 				<h2>{{timeline.event_name}} - Year: {{timeline.year}}</h2>

@@ -148,9 +148,9 @@ module.exports = function (grunt) {
 		// The actual grunt server settings
 		connect: {
 			options: {
-				port: 9000,
+				port: 9001,
 				hostname: '0.0.0.0',
-				livereload: 35729,
+				livereload: 35730,
 				middleware: function (connect) {
 					return [
 						require('connect-modrewrite') (['!(\\..+)$ /index.html [L]']),
@@ -295,7 +295,8 @@ module.exports = function (grunt) {
 				flow: {
 					html: {
 						steps: {
-							js: ['concat', 'uglifyjs']
+							js: ['concat', 'uglifyjs'],
+							css: ['cssmin']
 						},
 						post: {}
 					}
@@ -304,13 +305,13 @@ module.exports = function (grunt) {
 		},
 
 		// Performs rewrites based on filerev and the useminPrepare configuration
-		//usemin: {
-		//	html: ['<%= yeoman.dist %>/{,*/}*.html'],
-		//	css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
-		//	options: {
-		//		assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/assets/images']
-		//	}
-		//},
+		usemin: {
+			html: ['<%= yeoman.dist %>/{,*/}*.html'],
+			css: ['<%= yeoman.dist %>/styles/{,*/}*.css'],
+			options: {
+				assetsDirs: ['<%= yeoman.dist %>', '<%= yeoman.dist %>/assets/images']
+			}
+		},
 
 		uncss: {
 			dist: {
@@ -328,16 +329,16 @@ module.exports = function (grunt) {
 		// By default, your `index.html`'s <!-- Usemin block --> will take care of
 		// minification. These next options are pre-configured if you do not wish
 		// to use the Usemin blocks.
-		//cssmin: {
-		//	dist: {
-		//		options: {
-		//			keepSpecialComments: 0
-		//		},
-		//		files: {
-		//			'<%= yeoman.dist %>/styles/main.css': '.tmp/styles/{,*/}*.css'
-		//		}
-		//	}
-		//},
+		cssmin: {
+			dist: {
+				options: {
+					keepSpecialComments: 0
+				},
+				files: {
+					'<%= yeoman.dist %>/styles/main.css': '.tmp/styles/{,*/}*.css'
+				}
+			}
+		},
 		uglify: {
 			options: {
 				mangle: false
@@ -529,12 +530,12 @@ module.exports = function (grunt) {
 		'concat',
 		'autoprefixer:dist',
 		'ngAnnotate',
-		//'uncss',
+		'uncss',
 		'copy:dist',
-		//'cssmin',
+		'cssmin',
 		'uglify',
-		'filerev'
-		//'usemin'
+		'filerev',
+		'usemin'
 	]);
 
 	grunt.registerTask('default', [

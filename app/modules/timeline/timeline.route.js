@@ -21,6 +21,15 @@
         controllerAs: 'timeline'
       };
 
+	  var Description = {
+		  name: 'description',
+		  url: '/view/:id',
+		  templateUrl: 'modules/timeline/description.template.html',
+		  controller: 'Timeline',
+		  controllerAs: 'timeline'
+	  };
+
       $stateProvider.state(Timeline);
+	  $stateProvider.state(Description);
     });
 })();

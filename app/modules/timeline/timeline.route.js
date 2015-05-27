@@ -23,7 +23,7 @@
 
 	  var Description = {
 		  name: 'description',
-		  url: '/view/:id',
+		  url: '/event/:id',
 		  templateUrl: 'modules/timeline/description.template.html',
 		  controller: 'Timeline',
 		  controllerAs: 'timeline'

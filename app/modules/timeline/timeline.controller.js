@@ -21,9 +21,9 @@
 
 		function activate() {
 			$http.get('timeline.json')
-				.success(function(response) {
-					$scope.names = response;
-				});
+			.success(function(response) {
+				$scope.timelines = response;
+			});
 		}
 	};
 

@@ -148,9 +148,9 @@ module.exports = function (grunt) {
 		// The actual grunt server settings
 		connect: {
 			options: {
-				port: 9000,
+				port: 9001,
 				hostname: '0.0.0.0',
-				livereload: 35729,
+				livereload: 35730,
 				middleware: function (connect) {
 					return [
 						require('connect-modrewrite') (['!(\\..+)$ /index.html [L]']),

@@ -3,43 +3,45 @@
 		"id": 1,
 		"event_name": "The Big Bang & the Infinity Stones",
 		"year": "0",
-		"description": "Lorem Ipsum",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eveniet possimus recusandae voluptatem? Aliquid asperiores eius fugiat ipsum itaque molestiae nulla pariatur ratione. Ea ex explicabo illo minus natus praesentium ratione voluptate. Dolorem eius illo magni neque nisi officia quas vel voluptatum. Consequuntur et laudantium mollitia nam pariatur ullam velit.",
 		"asset_url": "assets/images/infinitystones.png"
 	},
 	{
 		"id": 2,
 		"event_name": "The Convergence",
 		"year": "0",
-		"description": "Lorem Ipsum",
+		"description": "In old Norse mythology, the world is divided into 9 realms from the world tree. The world tree Yggdrasil have 9 world branches. Each world branch is a so called 'realm'. About every 5000 years, these realms will 'overlap' making the fabric of reality unstable. Before Heimdalls watch began, Malekith the leader of a hostile race called the Dark Elfs tried to use the Convergence to destroy all 9 realms at the same time with the power of the Aether.",
 		"asset_url": "assets/images/convergence.jpg"
 	},
 	{
 		"id": 3,
 		"event_name": "The Kree Wars",
 		"year": "0",
-		"description": "Lorem Ipsum",
+		"description": "Since the dawn of time, the Kree and the Xandarians have been at war. Because of this the Kree invented a tool, called 'The Diviner'. The Diviners were sent to other planets in hope of creating super weapons that the Kree could later utilise to exterminate all Xandarians. However, the Kree had second thoughts about the Diviners and sought out to destroy them all.",
 		"asset_url": "assets/images/diviner.png"
 	},
 	{
 		"id": 4,
 		"event_name": "The Jotunheim War",
 		"year": "965",
-		"description": "Lorem Ipsum",
+		"description": "<p>The realm of Jotunheim, the realm of the Frost giants, Storm giants and the Mountain Giants. Only the Frost Giants have been introduced so far. Jotunheim lies just beneath Midgard in the branches of Yggdrasil. In the year 965, a small party of Frost Giants led by their king Laufey invaded Earth. Specifically in Tønsberg, Norway. Odin gathered a small army and defended Earth(Midgard). Odin and his army drove the Frost Giants back to their home. But it didn't stop there, Odin kept pushing them back into Jotunheim and after a battle of great costs (Odin lost his eye on the battle for Midgard). Odin defeated Laufey and took from him the source of the Frost Giants great power, The Casket of Ancient Winters. However this was not all he took with him, he also took Laufey's son, who was left to die. The Frost Giant child became what we today know as Loki.</p>",
 		"asset_url": "assets/images/jotunheim_war.png"
 	},
 	{
 		"id": 5,
 		"event_name": "Red Skull, The first modern Supervillain",
 		"year": "1940",
-		"description": "Lorem Ipsum",
-		"asset_url": "assets/images/redskull.png"
+		"description": "<p><strong>Johann Schmidt.</strong> Founder of HYDRA, a special division of the Nazi SS(Schutzvaffel) group. Johann was a brilliant scientist, and because of this he climped through the Nazi ranks faster than ever. Quickly becoming a confidant of Adolf Hitler himself. But Johanns dream of becoming the super human, took over him. He tested the Super Soldier Serum on himself, which transformed him into the Red Skull. In 1942 during World War II Johann and a company of nazis invaded Tønsberg, to find The Tesseract hidden away from normal people. Johann experimented with the Tesseract to aquire enourmous weapon powers.</p> <p>Johann and his team of HYDRA scientists (Arnim Zola) started working on weaponry and bombs with the Tesseract. The development of the Valkyrie bomb and a set of Nuclear-scale Tesseract energy bombs were among the arsenal HYDRA had.</p>",
+		"asset_url": "assets/images/redskull.png",
+		"quote": "<blockquote>“Great power has always baffled primitive men. HYDRA is assembling an arsenal to destroy my enemies in one stroke, wherever they are, regardless of how many forces they possess, all in a matter of hours.”</blockquote>"
 	},
 	{
 		"id": 6,
 		"event_name": "Captain America, The first modern Superhero",
 		"year": "1942",
-		"description": "Lorem Ipsum",
-		"asset_url": "assets/images/captainamerica.png"
+		"description": "During the time Johann Schmidt invades Norway a simple human named Steve Rogers is running around in New York, trying to join the army. Steve Rogers keep getting declined. Rogers is determined to join the ranks of the Allies and serve his country. Steve Rogers get the possibility to test out a new Super Soldier Serum (the same as Johann Schmidt were taking). Steve Rogers emerge from the pot where the super serum was injected. Out comes a new man. Steve becomes a propaganda character of USA named Captain America. Under the persona Captain America, Steve travels around and does shows in America for propaganda. He ends up doing shows at the border of World War II. Steve finds out his friend Bucky has been taken capture by the nazis and seeks out to save him. In the rescue Steve meets his enemy the red skull for the first time.",
+		"asset_url": "assets/images/captainamerica.png",
+		"quote": "I don't want to kill anyone. I don't like bullies; I don't care where they're from."
 	},
 	{
 		"id": 7,

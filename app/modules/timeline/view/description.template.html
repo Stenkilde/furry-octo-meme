@@ -1,9 +1,13 @@
-<section class="hero">
-	<h1>{{timelineview.timelines.event_name}}</h1>
+<section class="hero" style="background-image: url('{{timelineview.timelines.asset_url}}'); background-repeat: no-repeat; background-size: cover;">
+	<div class="hero__content">
+		<h1>{{timelineview.timelines.event_name}}</h1>
+	</div>
 </section>
 
-<section class="section">
-	<p>
-		{{timelineview.timelines.description}}
-	</p>
+<section class="row section">
+	<div class="small-12 columns" ng-bind-html="timelineview.timelines.description"></div>
+</section>
+
+<section class="row">
+	<div class="small-12 columns" ng-bind-html="timelineview.timelines.quote"></div>
 </section>
